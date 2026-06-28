@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Library Management System</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <i class="fas fa-book-open"></i>
+                <h2>Online Library</h2>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="books.html">Books</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Online Library Management System</h1>
+
+            <p>
+                Discover thousands of books, manage your reading,
+                and enjoy a modern digital library experience.
+            </p>
+
+            <a href="books.html" class="btn">Explore Books</a>
+        </div>
+    </section>
+
+    <!-- Search -->
+    <section class="search-section">
+
+        <h2>Search Books</h2>
+
+        <input
+            type="text"
+            id="searchBox"
+            placeholder="Search by Title or Author..."
+        >
+
+        <button onclick="searchBook()">
+            Search
+        </button>
+
+    </section>
+
+    <!-- Featured Books -->
+
+    <section class="books">
+
+        <h2>Featured Books</h2>
+
+        <div class="book-container">
+
+            <div class="book-card">
+                <img src="images/book1.jpg" alt="Book">
+
+                <h3>Java Programming</h3>
+
+                <p>Author: James Gosling</p>
+
+                <button>View</button>
+
+            </div>
+
+            <div class="book-card">
+
+                <img src="images/book2.jpg" alt="Book">
+
+                <h3>Python Basics</h3>
+
+                <p>Author: Guido van Rossum</p>
+
+                <button>View</button>
+
+            </div>
+
+            <div class="book-card">
+
+                <img src="images/book3.jpg" alt="Book">
+
+                <h3>Web Development</h3>
+
+                <p>Author: Developer Team</p>
+
+                <button>View</button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Services -->
+
+    <section class="services">
+
+        <h2>Library Services</h2>
+
+        <div class="service-box">
+
+            <div class="card">
+
+                <i class="fas fa-book"></i>
+
+                <h3>Book Collection</h3>
+
+                <p>Thousands of books available.</p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fas fa-search"></i>
+
+                <h3>Quick Search</h3>
+
+                <p>Find books instantly.</p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fas fa-user"></i>
+
+                <h3>User Accounts</h3>
+
+                <p>Manage your profile easily.</p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fas fa-clock"></i>
+
+                <h3>24/7 Access</h3>
+
+                <p>Access the library anytime.</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>
+
+            © 2026 Online Library Management System
+
+        </p>
+
+    </footer>
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>
